@@ -12,7 +12,7 @@ pip install --extra-index-url https://dataprepdownloads.azureedge.net/pypi/privP
 
 - [AzureML SDK](https://github.com/Azure/ViennaDocs/tree/master/PrivatePreview)
  
-- [CLI link](https:/github.com/Azure/ViennaDocs/blob/master/PrivatePreview/cli/CLI-101-Install-and-Local-Run.md)
+- [CLI link](https://github.com/Azure/ViennaDocs/blob/master/PrivatePreview/cli/CLI-101-Install-and-Local-Run.md)
 
 ## New Azure Data Prep API
 Here are examples on how to use the new Data Prep API
