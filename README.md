@@ -23,4 +23,4 @@ For an [End-to-End](Scenarios/NYTaxiCab)
 
 ## Known Issues
  - To fix "Error Message: Cannot run the event loop while another loop is running" downgrade your Tornado version to 4.5.3
- - Python 3.5 has some compatibility problems. To fix this, install Python 3.6
+
