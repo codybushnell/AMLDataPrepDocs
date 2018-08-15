@@ -7,7 +7,7 @@ Download:
 - [Data Prep SDK](https://dataprepdownloads.azureedge.net/pypi/privPreview/latest/)
 
 ```    
-pip install --extra-index-url https://dataprepdownloads.azureedge.net/pypi/privPreview/latest/ azureml-dataprep
+pip install --upgrade --extra-index-url https://dataprepdownloads.azureedge.net/pypi/privPreview/latest/ azureml-dataprep
 ```
 
 - [AzureML SDK](https://github.com/Azure/ViennaDocs/tree/master/PrivatePreview)
