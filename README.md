@@ -20,3 +20,7 @@ Here are examples on how to use the new Data Prep API
 For examples to use different transforms [Examples](API)
 
 For an [End-to-End](Scenarios/NYTaxiCab)
+
+## Known Issues
+ - To fix "Error Message: Cannot run the event loop while another loop is running" downgrad your Tornado version to 4.5.3
+ - Python 3.5 has some compatibility problems. To fix this, install Python 3.6
