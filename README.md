@@ -1,5 +1,5 @@
 
-# Azure Data Preperation Codename "Pendleton" Private Preview
+# Azure Data Preparation Codename "Pendleton" Private Preview
 
 ## Download and Installation Links
 Download:
