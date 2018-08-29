@@ -1,5 +1,5 @@
 
-# Azure Data Preperation Codename "Pendleton" Private Preview
+# Azure Data Preparation Codename "Pendleton" Private Preview
 
 ## Download and Installation Links
 Download:
@@ -17,9 +17,9 @@ pip install --upgrade --extra-index-url https://dataprepdownloads.azureedge.net/
 ## New Azure Data Prep API
 Here are examples on how to use the new Data Prep API
 
-For examples to use different transforms [Examples](API)
+- For examples to use different transforms [Examples](API)
 
-For an [End-to-End](Scenarios/NYTaxiCab)
+- For an [End-to-End](Scenarios/NYTaxiCab)
 
 ## Known Issues
  - To fix "Error Message: Cannot run the event loop while another loop is running" downgrade your Tornado version to 4.5.3
