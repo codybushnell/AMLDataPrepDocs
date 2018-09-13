@@ -4,9 +4,9 @@
 ## Download and Installation Links
 Download:
 
-- [DataPrep SDK](https://dataprepdownloads.azureedge.net/pypi/privPreview/latest/)
+- [DataPrep SDK (public preview candidate)](https://dataprepdownloads.azureedge.net/pypi/monthly-AE98437A2C8F6F45842C/latest/)
 ```    
-pip install --upgrade --extra-index-url https://dataprepdownloads.azureedge.net/pypi/privPreview/latest/ azureml-dataprep --no-cache-dir --force-reinstall
+pip install --upgrade --extra-index-url https://dataprepdownloads.azureedge.net/pypi/monthly-AE98437A2C8F6F45842C/latest/ azureml-dataprep --no-cache-dir --force-reinstall
 ```
 - [AzureML SDK](https://github.com/Azure/ViennaDocs/tree/master/PrivatePreview)
 - [CLI link](https://github.com/Azure/ViennaDocs/blob/master/PrivatePreview/cli/CLI-101-Install-and-Local-Run.md)
