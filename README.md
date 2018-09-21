@@ -6,11 +6,8 @@ Download:
 
 - [DataPrep SDK (public preview candidate)](https://dataprepdownloads.azureedge.net/pypi/monthly-AE98437A2C8F6F45842C/latest/)
 ```    
-pip install --upgrade --extra-index-url https://dataprepdownloads.azureedge.net/pypi/monthly-AE98437A2C8F6F45842C/latest/ azureml-dataprep --no-cache-dir --force-reinstall
+ pip install install azureml-dataprep
 ```
-- [AzureML SDK](https://github.com/Azure/ViennaDocs/tree/master/PrivatePreview)
-- [CLI link](https://github.com/Azure/ViennaDocs/blob/master/PrivatePreview/cli/CLI-101-Install-and-Local-Run.md)
-
 ## New Azure Data Prep API
 Here are examples on how to use the new DataPrep API:
 - [DataPrep Transforms Examples](API)
