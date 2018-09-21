@@ -4,7 +4,8 @@
 ## Download and Installation Links
 Download:
 
-- [DataPrep SDK (public preview candidate)](https://dataprepdownloads.azureedge.net/pypi/monthly-AE98437A2C8F6F45842C/latest/)
+### DataPrep SDK
+install from PyPI:
 ```    
  pip install install azureml-dataprep
 ```
