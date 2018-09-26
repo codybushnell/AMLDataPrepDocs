@@ -1,9 +1,7 @@
 
 # Azure Data Preparation Codename "Pendleton" Public Preview
 
-## Download and Installation Links
-Download:
-
+## Installation
 ### DataPrep SDK
 install from PyPI:
 ```    
