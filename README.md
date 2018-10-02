@@ -5,7 +5,7 @@
 ### DataPrep SDK
 install from PyPI:
 ```    
- pip install --update azureml-dataprep
+ pip install --upgrade azureml-dataprep
 ```
 ## New Azure Data Prep API
 Here are examples on how to use the new DataPrep API:
