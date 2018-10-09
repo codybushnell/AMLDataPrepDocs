@@ -1,5 +1,5 @@
 
-# Azure Data Preparation Codename "Pendleton" Public Preview
+# Azure Data Preparation Public Preview
 
 ## Installation
 ### DataPrep SDK
