@@ -21,6 +21,7 @@ Here are examples on how to use the new DataPrep API:
 - [Getting Started](Scenarios/GettingStarted/getting-started.ipynb)
 - [DataPrep Transforms Examples](API)
 - [End-to-End Scenario](Scenarios/NYTaxiCab)
+- [API Reference Docs](http://aka.ms/data-prep-sdk)
 
 ## Known Issues
 
