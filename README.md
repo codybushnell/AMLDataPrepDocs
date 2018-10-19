@@ -1,5 +1,5 @@
 
-# Azure Data Preparation Public Preview
+# Azure Machine Learning Data Prep Public Preview
 
 ## Installation
 ### DataPrep SDK
