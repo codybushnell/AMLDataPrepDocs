@@ -5,7 +5,7 @@ The Azure Machine Learning Data Prep SDK is used to load, transform, and write d
 
 - Intelligent transforms: Use the SDK to derive or split a column by example, impute missing values, fuzzy group, auto join, and perform other automated tasks.
 - Smart reading functionality: The SDK can automatically detect any of the supported file types. You don’t need to use special file readers for CSV, text, Excel, etc., or to specify delimiter, header, or encoding parameters.
-Varying schema processing: The SDK engine can read different columns per row instance, also sometimes referred to as ragged-right format.
+- Varying schema processing: The SDK engine can read different columns per row instance, also sometimes referred to as ragged-right format.
 - Scale through streaming: Instead of loading all the data into memory, the SDK engine serves data using streaming, allowing it to scale and perform better on large datasets.
 - Cross-platform functionality with a single code artifact: Write to a single SDK and run it on Windows, macOS, Linux, or Spark in a scale-up or scale-out manner. When running in scale-up, the engine attempts to utilize all hardware threads available, when running scale-out the engine allows the distributed scheduler to optimize execution.
 
