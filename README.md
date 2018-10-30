@@ -11,7 +11,7 @@ The Azure Machine Learning Data Prep SDK is used to load, transform, and write d
 
 
 ## Installation
-### DataPrep SDK
+### Data Prep SDK
 install from PyPI:
 ```    
  pip install --upgrade azureml-dataprep
@@ -29,8 +29,8 @@ Here are examples on how to use the new DataPrep API:
 ```    
 pip install -U tornado==4.5.3
 ```
-
-## 2018-11-1 Release Notes
+## Release Notes
+### 2018-11-1
 
 New Features:
 -	Type Count added to Data Profile
