@@ -33,7 +33,7 @@ pip install -U tornado==4.5.3
 ### 2018-11-1
 
 New Features:
--	Type Count added to Data Profile
+- Type Count added to Data Profile
 - Value Count and Histogram is now available
 -	More percentiles in Data Profile
 -	The Median is available in Summarize
