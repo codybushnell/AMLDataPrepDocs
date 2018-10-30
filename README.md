@@ -17,9 +17,9 @@ install from PyPI:
  pip install --upgrade azureml-dataprep
 ```
 ## New Azure Data Prep API
-Here are examples on how to use the new DataPrep API:
+Here are examples on how to use the new Data Prep API:
 - [Getting Started](Scenarios/GettingStarted/getting-started.ipynb)
-- [DataPrep Transforms Examples](API)
+- [Data Prep Transforms Examples](API)
 - [End-to-End Scenario](Scenarios/NYTaxiCab)
 - [API Reference Docs](http://aka.ms/data-prep-sdk)
 
@@ -38,7 +38,7 @@ New Features:
 -	More percentiles in Data Profile
 -	The Median is available in Summarize
 -	Python 3.7 is now supported
--	When you save a dataflow that contains datastores to a DataPrep package, the datastore information will be persisted as part of the DataPrep package
+-	When you save a dataflow that contains datastores to a Data Prep package, the datastore information will be persisted as part of the Data Prep package
 -	Writing to datastore is now supported
  
 Bug Fixes:
