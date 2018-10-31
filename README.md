@@ -35,16 +35,16 @@ pip install -U tornado==4.5.3
 New Features:
 - Type Count added to Data Profile
 - Value Count and Histogram is now available
--	More percentiles in Data Profile
--	The Median is available in Summarize
--	Python 3.7 is now supported
--	When you save a dataflow that contains datastores to a Data Prep package, the datastore information will be persisted as part of the Data Prep package
--	Writing to datastore is now supported
+- More percentiles in Data Profile
+- The Median is available in Summarize
+- Python 3.7 is now supported
+- When you save a dataflow that contains datastores to a Data Prep package, the datastore information will be persisted as part of the Data Prep package
+- Writing to datastore is now supported
  
 Bug Fixes:
--	64bit unsigned integer overflows are now handled properly on Linux 
--	Fixed incorrect text label for plain text files in smart_read
--	String column type now shows up in metrics view
--	Type count now is fixed to show ValueKinds mapped to single FieldType instead of individual ones
--	Write_to_csv no longer fails when path is provided as a string
--	When using Replace, leaving “find” blank will no longer fail
+- 64bit unsigned integer overflows are now handled properly on Linux 
+- Fixed incorrect text label for plain text files in smart_read
+- String column type now shows up in metrics view
+- Type count now is fixed to show ValueKinds mapped to single FieldType instead of individual ones
+- Write_to_csv no longer fails when path is provided as a string
+- When using Replace, leaving “find” blank will no longer fail
