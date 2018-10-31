@@ -17,7 +17,7 @@ install from PyPI:
  pip install --upgrade azureml-dataprep
 ```
 ## New Azure Data Prep API
-Here are examples on how to use the new DataPrep API:
+Here are examples of how to use the new DataPrep API:
 - [Getting Started](Scenarios/GettingStarted/getting-started.ipynb)
 - [DataPrep Transforms Examples](API)
 - [End-to-End Scenario](Scenarios/NYTaxiCab)
