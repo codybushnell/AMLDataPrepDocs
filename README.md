@@ -31,7 +31,7 @@ Here are examples on how to use the new Data Prep API:
 pip install -U tornado==4.5.3
 ```
 ## Release Notes
-### 2018-11-1
+### 2018-11-05
 
 New Features:
 - Type Count added to Data Profile
