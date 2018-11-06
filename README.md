@@ -12,21 +12,21 @@ The Azure Machine Learning Data Prep SDK is used to load, transform, and write d
 
 ## Installation
 ### Data Prep SDK
-install from PyPI:
+Install from PyPI:
 ```    
  pip install --upgrade azureml-dataprep
 ```
-## New Azure Data Prep API
+## New Azure ML Data Prep API
 
 Here are examples on how to use the new Data Prep API:
-- [Getting Started](Scenarios/GettingStarted/getting-started.ipynb)
-- [Data Prep Transforms Examples](API)
-- [End-to-End Scenario](Scenarios/NYTaxiCab)
+- [Getting Started Tutorial](tutorials/getting-started/getting-started.ipynb)
+- [How-To Guides](how-to-guides)
+- [Case Study](case-studies/new-york-taxi)
 - [API Reference Docs](http://aka.ms/data-prep-sdk)
 
 ## Known Issues
 
-- <b>If running version 0.1.0</b>: To fix "Error Message: Cannot run the event loop while another loop is running", downgrade Tornado version to 4.5.3. Restart any running kernels for the change to take effect.
+- **If running version 0.1.0**: To fix "Error Message: Cannot run the event loop while another loop is running", downgrade Tornado version to 4.5.3. Restart any running kernels for the change to take effect.
 ```    
 pip install -U tornado==4.5.3
 ```
