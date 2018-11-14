@@ -49,3 +49,10 @@ Bug Fixes:
 - Type count now is fixed to show ValueKinds mapped to single FieldType instead of individual ones
 - Write_to_csv no longer fails when path is provided as a string
 - When using Replace, leaving “find” blank will no longer fail
+
+
+## Datasets License Information 
+IMPORTANT: Please read the notice and find out more about this NYC Taxi and Limousine Commission dataset here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml 
+
+IMPORTANT: Please read the notice and find out more about this Chicago Police Department dataset here: https://catalog.data.gov/dataset/crimes-2001-to-present-398a4 
+
