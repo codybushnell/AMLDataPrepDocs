@@ -4,7 +4,7 @@
 The Azure Machine Learning Data Prep SDK is used to load, transform, and write data for machine learning workflows. You can interact with the SDK in any Python environment, including Jupyter Notebooks or your favorite Python IDE. The Azure Machine Learning Data Prep SDK includes the following set of functionalities to help prepare your data for modeling:
 
 - Intelligent transforms: Use the SDK to derive or split a column by example, impute missing values, fuzzy group, auto join, and perform other automated tasks.
-- Smart reading functionality: The SDK can automatically detect any of the supported file types. You don’t need to use special file readers for CSV, text, Excel, etc., or to specify delimiter, header, or encoding parameters.
+- Auto reading functionality: The SDK can automatically detect any of the supported file types. You don’t need to use special file readers for CSV, text, Excel, etc., or to specify delimiter, header, or encoding parameters.
 - Varying schema processing: The SDK engine can read different columns per row instance, also sometimes referred to as ragged-right format.
 - Scale through streaming: Instead of loading all the data into memory, the SDK engine serves data using streaming, allowing it to scale and perform better on large datasets.
 - Cross-platform functionality with a single code artifact: Write to a single SDK and run it on Windows, macOS, Linux, or Spark in a scale-up or scale-out manner. When running in scale-up, the engine attempts to utilize all hardware threads available, when running scale-out the engine allows the distributed scheduler to optimize execution.
@@ -49,3 +49,10 @@ Bug Fixes:
 - Type count now is fixed to show ValueKinds mapped to single FieldType instead of individual ones
 - Write_to_csv no longer fails when path is provided as a string
 - When using Replace, leaving “find” blank will no longer fail
+
+
+## Datasets License Information 
+IMPORTANT: Please read the notice and find out more about this NYC Taxi and Limousine Commission dataset here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml 
+
+IMPORTANT: Please read the notice and find out more about this Chicago Police Department dataset here: https://catalog.data.gov/dataset/crimes-2001-to-present-398a4 
+
