@@ -54,6 +54,7 @@ Bug Fixes:
 - Now no longer fails on Linux DSVM
 - Now no longer crashes when non-string values are in string predicates
 - Now handles assertion errors when Dataflow should fail correctly
+- Now upports dbutils mounted storage locations on Azure Databricks
 
 ### 2018-11-05
 
