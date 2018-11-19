@@ -1,4 +1,3 @@
-
 # Azure Machine Learning Data Prep Public Preview
 
 The Azure Machine Learning Data Prep SDK is used to load, transform, and write data for machine learning workflows. You can interact with the SDK in any Python environment, including Jupyter Notebooks or your favorite Python IDE. The Azure Machine Learning Data Prep SDK includes the following set of functionalities to help prepare your data for modeling:
@@ -31,25 +30,6 @@ Here are examples on how to use the new Data Prep API:
 pip install -U tornado==4.5.3
 ```
 ## Release Notes
-### 2018-11-05
-
-New Features:
-- Type Count added to Data Profile
-- Value Count and Histogram is now available
-- More percentiles in Data Profile
-- The Median is available in Summarize
-- Python 3.7 is now supported
-- When you save a dataflow that contains datastores to a Data Prep package, the datastore information will be persisted as part of the Data Prep package
-- Writing to datastore is now supported
- 
-Bug Fixes:
-- 64bit unsigned integer overflows are now handled properly on Linux 
-- Fixed incorrect text label for plain text files in smart_read
-- String column type now shows up in metrics view
-- Type count now is fixed to show ValueKinds mapped to single FieldType instead of individual ones
-- Write_to_csv no longer fails when path is provided as a string
-- When using Replace, leaving “find” blank will no longer fail
-
 ### 2018-11-19
 
 New Features:
@@ -75,7 +55,24 @@ Bug Fixes:
 - Now no longer crashes when non-string values are in string predicates
 - Now handles assertion errors when Dataflow should fail correctly
 
+### 2018-11-05
 
+New Features:
+- Type Count added to Data Profile
+- Value Count and Histogram is now available
+- More percentiles in Data Profile
+- The Median is available in Summarize
+- Python 3.7 is now supported
+- When you save a dataflow that contains datastores to a Data Prep package, the datastore information will be persisted as part of the Data Prep package
+- Writing to datastore is now supported
+ 
+Bug Fixes:
+- 64bit unsigned integer overflows are now handled properly on Linux 
+- Fixed incorrect text label for plain text files in smart_read
+- String column type now shows up in metrics view
+- Type count now is fixed to show ValueKinds mapped to single FieldType instead of individual ones
+- Write_to_csv no longer fails when path is provided as a string
+- When using Replace, leaving “find” blank will no longer fail
 
 ## Datasets License Information 
 IMPORTANT: Please read the notice and find out more about this NYC Taxi and Limousine Commission dataset here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml 
