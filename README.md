@@ -50,6 +50,32 @@ Bug Fixes:
 - Write_to_csv no longer fails when path is provided as a string
 - When using Replace, leaving “find” blank will no longer fail
 
+### 2018-11-19
+
+New Features:
+- Created a new DataPrep CLI to execute DataPrep packages and view the data profile for a dataset or dataflow
+- Redesigned SetColumnType API to improve usability
+- Renamed smart_read_file to auto_read_file
+- Now includes skew and kurtosis in the Data Profile
+- Can sample with stratified sampling
+- Can read from zip files that contain CSV files
+- Can split datasets row-wise with Random Split (e.g. into test-train sets)
+- Can get all the column data types from a dataflow or a data profile by calling .dtypes
+- Can get the row count from a dataflow or a data profile by calling .row_count
+
+Bug Fixes:
+- Fixed long to double conversion 
+- Fixed assert after any add column 
+- Fixed an issue with FuzzyGrouping, where it would not detect groups in some cases
+- Fixed sort function to respect multi-column sort order
+- Fixed and/or expressions to be similar to how Pandas handles them
+- Made error messages more understandable 
+- Now no longer fails when reading on remote compute target using AML token
+- Now no longer fails on Linux DSVM
+- Now no longer crashes when non-string values are in string predicates
+- Now handles assertion errors when Dataflow should fail correctly
+
+
 
 ## Datasets License Information 
 IMPORTANT: Please read the notice and find out more about this NYC Taxi and Limousine Commission dataset here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml 
