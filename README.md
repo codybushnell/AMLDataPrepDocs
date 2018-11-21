@@ -49,6 +49,7 @@ Bug Fixes:
 - Fixed an issue with FuzzyGrouping, where it would not detect groups in some cases
 - Fixed sort function to respect multi-column sort order
 - Fixed and/or expressions to be similar to how Pandas handles them
+- Fixed reading from dbfs path.
 - Made error messages more understandable 
 - Now no longer fails when reading on remote compute target using AML token
 - Now no longer fails on Linux DSVM
