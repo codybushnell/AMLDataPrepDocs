@@ -30,6 +30,17 @@ Here are examples on how to use the new Data Prep API:
 pip install -U tornado==4.5.3
 ```
 ## Release Notes
+### 2018-12-03
+Breaking changes
+ - `SummaryFunction.N` was renamed to `SummaryFunction.Count`.
+  
+Bug Fixes
+ - Use latest AML Run Token when reading from and writing to datastores on remote runs. Previously, if the AML Run Token is updated in Python, the Data Prep runtime will not be updated with the updated AML Run Token.
+ - Additional clearer error messages
+ - to_spark_dataframe() will no longer crash when Spark uses Kryo serialization
+ - Value Count Inspector can now show more than 1000 unique values
+ - Random Split no longer fails if the original Dataflow doesn’t have a name  
+
 ### 2018-11-19
 
 New Features:
