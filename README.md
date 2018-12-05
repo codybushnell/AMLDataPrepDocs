@@ -31,10 +31,10 @@ pip install -U tornado==4.5.3
 ```
 ## Release Notes
 ### 2018-12-03
-Breaking changes
+Breaking changes:
  - `SummaryFunction.N` was renamed to `SummaryFunction.Count`.
   
-Bug Fixes
+Bug Fixes:
  - Use latest AML Run Token when reading from and writing to datastores on remote runs. Previously, if the AML Run Token is updated in Python, the Data Prep runtime will not be updated with the updated AML Run Token.
  - Additional clearer error messages
  - to_spark_dataframe() will no longer crash when Spark uses Kryo serialization
