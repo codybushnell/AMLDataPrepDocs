@@ -10,11 +10,13 @@ The Azure Machine Learning Data Prep SDK is used to load, transform, and write d
 
 
 ## Installation
+
 ### Data Prep SDK
 Install from PyPI:
 ```    
  pip install --upgrade azureml-dataprep
 ```
+
 ## New Azure ML Data Prep API
 
 Here are examples on how to use the new Data Prep API:
@@ -29,8 +31,15 @@ Here are examples on how to use the new Data Prep API:
 ```    
 pip install -U tornado==4.5.3
 ```
+
 ## Release Notes
-### 2018-12-03
+
+### 2018-12-07 (version 0.5.3)
+
+Fixed missing dependency issue for .NET Core2 on Ubuntu 16
+
+### 2018-12-03 (version 0.5.2)
+
 Breaking changes:
  - `SummaryFunction.N` was renamed to `SummaryFunction.Count`.
   
@@ -41,7 +50,7 @@ Bug Fixes:
  - Value Count Inspector can now show more than 1000 unique values
  - Random Split no longer fails if the original Dataflow doesn’t have a name  
 
-### 2018-11-19
+### 2018-11-19 (version 0.5.0)
 
 New Features:
 - Created a new DataPrep CLI to execute DataPrep packages and view the data profile for a dataset or dataflow
@@ -68,7 +77,7 @@ Bug Fixes:
 - Now handles assertion errors when Dataflow should fail correctly
 - Now supports dbutils mounted storage locations on Azure Databricks
 
-### 2018-11-05
+### 2018-11-05 (version 0.4.0)
 
 New Features:
 - Type Count added to Data Profile
@@ -87,7 +96,8 @@ Bug Fixes:
 - Write_to_csv no longer fails when path is provided as a string
 - When using Replace, leaving “find” blank will no longer fail
 
-## Datasets License Information 
+## Datasets License Information
+
 IMPORTANT: Please read the notice and find out more about this NYC Taxi and Limousine Commission dataset here: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml 
 
 IMPORTANT: Please read the notice and find out more about this Chicago Police Department dataset here: https://catalog.data.gov/dataset/crimes-2001-to-present-398a4 
