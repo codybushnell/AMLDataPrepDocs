@@ -1,4 +1,4 @@
-# Azure Machine Learning Data Prep Public Preview
+# Azure Machine Learning Data Prep 
 
 The Azure Machine Learning Data Prep SDK is used to load, transform, and write data for machine learning workflows. You can interact with the SDK in any Python environment, including Jupyter Notebooks or your favorite Python IDE. The Azure Machine Learning Data Prep SDK includes the following set of functionalities to help prepare your data for modeling:
 
