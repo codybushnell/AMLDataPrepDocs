@@ -14,7 +14,7 @@
               "target": 0,
               "resourceDetails": [
                 {
-                  "path": "./crime0-10.csv"
+                  "path": "./crime-spring.csv"
                 }
               ]
             }
