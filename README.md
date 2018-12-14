@@ -18,12 +18,13 @@ Install from PyPI:
 ```
 
 ## New Azure ML Data Prep API
-
-Here are examples on how to use the new Data Prep API:
-- [Getting Started Tutorial](tutorials/getting-started/getting-started.ipynb)
+Here is more information on how to use the new Data Prep API:
 - [How-To Guides](how-to-guides)
-- [Case Study](case-studies/new-york-taxi)
 - [API Reference Docs](http://aka.ms/data-prep-sdk)
+- [Data prep tutorial](https://docs.microsoft.com/azure/machine-learning/service/tutorial-data-prep)
+- [How to load data](https://docs.microsoft.com/azure/machine-learning/service/how-to-load-data)
+- [How to transform data](https://docs.microsoft.com/azure/machine-learning/service/how-to-transform-data)
+- [How to write data](https://docs.microsoft.com/azure/machine-learning/service/how-to-write-data) 
 
 ## Known Issues
 
