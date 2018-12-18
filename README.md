@@ -34,16 +34,28 @@ pip install -U tornado==4.5.3
 
 ## Release Notes
 
+### 2018-12-19 (version 1.0.4)
+
+New features
+- `to_bool` function now allows mismatched values to be converted to Error values. This is the new default mismatch behavior, as opposed to converting mismatched values to False.
+- When calling `to_pandas_dataframe`, there is a new option to interpret null/missing values in numeric columns as NaN.
+- Type checking for expressions is now conducted for expressions that result in consistent values or are the result of constants to detect errors before execution.
+- You can now call `parse_json` to parse values in a column as JSON objects and expand them into multiple columns.
+
+Bug fixes
+- Fixed a bug that crashed `set_column_types` in Python 3.5.2.
+- Fixed a bug that crashed when connecting to Datastore using an AML image.
+
 ### 2018-12-07 (version 0.5.3)
 
 Fixed missing dependency issue for .NET Core2 on Ubuntu 16
 
 ### 2018-12-03 (version 0.5.2)
 
-Breaking changes:
+Breaking changes
  - `SummaryFunction.N` was renamed to `SummaryFunction.Count`.
   
-Bug Fixes:
+Bug fixes
  - Use latest AML Run Token when reading from and writing to datastores on remote runs. Previously, if the AML Run Token is updated in Python, the Data Prep runtime will not be updated with the updated AML Run Token.
  - Additional clearer error messages
  - to_spark_dataframe() will no longer crash when Spark uses Kryo serialization
@@ -52,7 +64,7 @@ Bug Fixes:
 
 ### 2018-11-19 (version 0.5.0)
 
-New Features:
+New features
 - Created a new DataPrep CLI to execute DataPrep packages and view the data profile for a dataset or dataflow
 - Redesigned SetColumnType API to improve usability
 - Renamed smart_read_file to auto_read_file
@@ -63,7 +75,7 @@ New Features:
 - Can get all the column data types from a dataflow or a data profile by calling .dtypes
 - Can get the row count from a dataflow or a data profile by calling .row_count
 
-Bug Fixes:
+Bug fixes
 - Fixed long to double conversion 
 - Fixed assert after any add column 
 - Fixed an issue with FuzzyGrouping, where it would not detect groups in some cases
@@ -79,7 +91,7 @@ Bug Fixes:
 
 ### 2018-11-05 (version 0.4.0)
 
-New Features:
+New features
 - Type Count added to Data Profile
 - Value Count and Histogram is now available
 - More percentiles in Data Profile
@@ -88,7 +100,7 @@ New Features:
 - When you save a dataflow that contains datastores to a Data Prep package, the datastore information will be persisted as part of the Data Prep package
 - Writing to datastore is now supported
  
-Bug Fixes:
+Bug fixes
 - 64bit unsigned integer overflows are now handled properly on Linux 
 - Fixed incorrect text label for plain text files in smart_read
 - String column type now shows up in metrics view
