@@ -39,7 +39,7 @@ pip install -U tornado==4.5.3
 New features
 - `to_bool` function now allows mismatched values to be converted to Error values. This is the new default mismatch behavior for `to_bool` and `set_column_types`, whereas the previous default behavior was to convert mismatched values to False.
 - When calling `to_pandas_dataframe`, there is a new option to interpret null/missing values in numeric columns as NaN.
-- Type checking for expressions is now conducted for expressions that result in consistent values or are the result of constants to detect errors before execution.
+- Added ability to check the return type of some expressions to ensure type consistency and fail early.
 - You can now call `parse_json` to parse values in a column as JSON objects and expand them into multiple columns.
 
 Bug fixes
