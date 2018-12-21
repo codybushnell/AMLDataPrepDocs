@@ -1,20 +1,20 @@
 # Azure Machine Learning Data Prep SDK
 
 You will find in this repo:
-- [How-To Guide Notebooks](how-to-guides) for more in depth feature examples.
+- [How-To Guide Notebooks](how-to-guides) for more in-depth feature examples.
 - [Case Study Notebooks](case-studies/new-york-taxi) that show in depth scenario examples of features.
-- [Getting Started Tutorial](tutorials/getting-started/getting-started.ipynb) which is a work flow of how you could use the Data Prep SDK.
+- [Getting Started Tutorial](tutorials/getting-started/getting-started.ipynb) for a quick introduction to the Data Prep SDK and some of its main features.
 
 ## Installation
 Here are the [SDK installation steps](https://docs.microsoft.com/python/api/overview/azure/dataprep/intro?view=azure-dataprep-py#install).
 
-## Azure Machine Learning Data Prep SDK Documentation 
+## Documentation 
 Here is more information on how to use the new Data Prep SDK:
-- [SDK overview and API reference docs ](http://aka.ms/data-prep-sdk) that show different classes, methods, and function parameters for the SDK.
+- [SDK overview and API reference docs](http://aka.ms/data-prep-sdk) that show different classes, methods, and function parameters for the SDK.
 - [Tutorial: Prep NYC taxi data](https://docs.microsoft.com/azure/machine-learning/service/tutorial-data-prep) for regression modeling and then run automated machine learning to build the model.
 - [How to load data](https://docs.microsoft.com/azure/machine-learning/service/how-to-load-data) is an overview guide on how to load data using the Data Prep SDK.
-- [How to transform data](https://docs.microsoft.com/azure/machine-learning/service/how-to-transform-data) is an overfview guide on how to transform data. 
-- [How to write data](https://docs.microsoft.com/azure/machine-learning/service/how-to-write-data) is an overfview guide on how to write data to different storage locations. 
+- [How to transform data](https://docs.microsoft.com/azure/machine-learning/service/how-to-transform-data) is an overview guide on how to transform data. 
+- [How to write data](https://docs.microsoft.com/azure/machine-learning/service/how-to-write-data) is an overview guide on how to write data to different storage locations. 
 
 ## Known Issues
 
