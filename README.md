@@ -2,7 +2,7 @@
 
 You will find in this repo:
 - [How-To Guide Notebooks](how-to-guides) for more in-depth feature examples.
-- [Case Study Notebooks](case-studies/new-york-taxi) that show in depth scenario examples of features.
+- [Case Study Notebooks](case-studies/new-york-taxi) that show in-depth scenario examples of features.
 - [Getting Started Tutorial](tutorials/getting-started/getting-started.ipynb) for a quick introduction to the Data Prep SDK and some of its main features.
 
 ## Installation
