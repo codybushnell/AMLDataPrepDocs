@@ -25,6 +25,11 @@ pip install -U tornado==4.5.3
 
 ## Release Notes
 
+### 2019-01-09 (version 1.0.6)
+
+Bug fixes
+- Fixed bug with reading from public readable Azure Blob containers on Spark
+
 ### 2018-12-19 (version 1.0.4)
 
 New features
