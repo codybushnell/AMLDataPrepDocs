@@ -25,6 +25,14 @@ pip install -U tornado==4.5.3
 
 ## Release Notes
 
+### 2019-01-14 (version 1.0.7)
+
+New features
+- Datastore improvements (documented in [Datastore how-to-guide](https://github.com/Microsoft/AMLDataPrepDocs/tree/master/how-to-guides/datastore.ipynb))
+  - Added ability to read from and write to Azure File Share and ADLS Datastores in scale-up.
+  - When using Datastores, Data Prep now supports using service principal authentication instead of interactive authentication.
+  - Added support for wasb and wasbs urls.
+
 ### 2019-01-09 (version 1.0.6)
 
 Bug fixes
@@ -49,14 +57,14 @@ Fixed missing dependency issue for .NET Core2 on Ubuntu 16
 ### 2018-12-03 (version 0.5.2)
 
 Breaking changes
- - `SummaryFunction.N` was renamed to `SummaryFunction.Count`.
+- `SummaryFunction.N` was renamed to `SummaryFunction.Count`.
   
 Bug fixes
- - Use latest AML Run Token when reading from and writing to datastores on remote runs. Previously, if the AML Run Token is updated in Python, the Data Prep runtime will not be updated with the updated AML Run Token.
- - Additional clearer error messages
- - to_spark_dataframe() will no longer crash when Spark uses Kryo serialization
- - Value Count Inspector can now show more than 1000 unique values
- - Random Split no longer fails if the original Dataflow doesn’t have a name  
+- Use latest AML Run Token when reading from and writing to datastores on remote runs. Previously, if the AML Run Token is updated in Python, the Data Prep runtime will not be updated with the updated AML Run Token.
+- Additional clearer error messages
+- to_spark_dataframe() will no longer crash when Spark uses Kryo serialization
+- Value Count Inspector can now show more than 1000 unique values
+- Random Split no longer fails if the original Dataflow doesn’t have a name  
 
 ### 2018-11-19 (version 0.5.0)
 
